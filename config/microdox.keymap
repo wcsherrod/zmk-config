@@ -70,216 +70,216 @@
   combos {
     compatible = "zmk,combos";   
 
-    toggle_cmk_dh {
-      timeout-ms = <50>;
-      key-positions=<0 1 8 9>;
-      bindings=<&tog CMK_DH>;
-    };
+    // toggle_cmk_dh {
+    //   timeout-ms = <50>;
+    //   key-positions=<0 1 8 9>;
+    //   bindings=<&tog CMK_DH>;
+    // };
 
-    media_layer { 
-      timeout-ms = <50>;
-      key-positions=<30 31>;
-      bindings=<&mo MEDIA>;
-    }; 
+    // media_layer { 
+    //   timeout-ms = <50>;
+    //   key-positions=<30 31>;
+    //   bindings=<&mo MEDIA>;
+    // }
     
-    media_layer_flip { 
-      timeout-ms = <50>;
-      key-positions=<34 35>;
-      bindings=<&mo MEDIA_FLIP>;
-    }; 
+    // media_layer_flip { 
+    //   timeout-ms = <50>;
+    //   key-positions=<34 35>;
+    //   bindings=<&mo MEDIA_FLIP>;
+    // }; 
 
-    num_layer { 
-      timeout-ms = <50>;
-      key-positions=<33 34>;
-      bindings=<&mo NUM>;
-    }; 
+    // num_layer { 
+    //   timeout-ms = <50>;
+    //   key-positions=<33 34>;
+    //   bindings=<&mo NUM>;
+    // }; 
 
-    fn_layer {
-      timeout-ms = <50>;
-      key-positions=<31 32>; 
-      bindings=<&mo FUN>;
-    };
+    // fn_layer {
+    //   timeout-ms = <50>;
+    //   key-positions=<31 32>; 
+    //   bindings=<&mo FUN>;
+    // };
     
-    left_bspc {
-      timeout-ms = <50>;
-      key-positions=<0 10>;
-      bindings=<&kp BSPC>;
-    };
+    // left_bspc {
+    //   timeout-ms = <50>;
+    //   key-positions=<0 10>;
+    //   bindings=<&kp BSPC>;
+    // };
 
-    tab {
-      timeout-ms = <50>;
-      key-positions=<11 12 13>;
-      bindings=<&kp TAB>;
-    };  
+    // tab {
+    //   timeout-ms = <50>;
+    //   key-positions=<11 12 13>;
+    //   bindings=<&kp TAB>;
+    // };  
 
-    tab2 {
-      timeout-ms = <50>;
-      key-positions=<16 17 18>;
-      bindings=<&kp TAB>;
-    };
+    // tab2 {
+    //   timeout-ms = <50>;
+    //   key-positions=<16 17 18>;
+    //   bindings=<&kp TAB>;
+    // };
 
-    grave {
-      timeout-ms = <50>;
-      key-positions=<1 2 3>;
-      bindings=<&kp GRAVE>;
-    };
+    // grave {
+    //   timeout-ms = <50>;
+    //   key-positions=<1 2 3>;
+    //   bindings=<&kp GRAVE>;
+    // };
 
-    grave2 {
-      timeout-ms = <50>;
-      key-positions=<6 7 8>;
-      bindings=<&kp GRAVE>;
-    };
+    // grave2 {
+    //   timeout-ms = <50>;
+    //   key-positions=<6 7 8>;
+    //   bindings=<&kp GRAVE>;
+    // };
 
-    shift_tab {
-      timeout-ms = <50>;
-      key-positions=<21 22 23>;
-      bindings=<&kp LS(TAB)>;
-    };
+    // shift_tab {
+    //   timeout-ms = <50>;
+    //   key-positions=<21 22 23>;
+    //   bindings=<&kp LS(TAB)>;
+    // };
 
-    shift_tab2 {
-      timeout-ms = <50>;
-      key-positions=<26 27 28>;
-      bindings=<&kp LS(TAB)>;
-    };
+    // shift_tab2 {
+    //   timeout-ms = <50>;
+    //   key-positions=<26 27 28>;
+    //   bindings=<&kp LS(TAB)>;
+    // };
 
-    left {
-      timeout-ms = <50>;
-      key-positions=<11 21>; 
-      bindings=<&kp LEFT>;
-    };
+    // left {
+    //   timeout-ms = <50>;
+    //   key-positions=<11 21>; 
+    //   bindings=<&kp LEFT>;
+    // };
 
-    left_2 {
-      timeout-ms = <50>;
-      key-positions=<15 25>; 
-      bindings=<&kp LEFT>;
-    };
+    // left_2 {
+    //   timeout-ms = <50>;
+    //   key-positions=<15 25>; 
+    //   bindings=<&kp LEFT>;
+    // };
 
-    up {
-      timeout-ms = <50>;
-      key-positions=<12 22>; 
-      bindings=<&kp UP>;
-    };
+    // up {
+    //   timeout-ms = <50>;
+    //   key-positions=<12 22>; 
+    //   bindings=<&kp UP>;
+    // };
     
-    up_2 {
-      timeout-ms = <50>;
-      key-positions=<17 27>; 
-      bindings=<&kp UP>;
-    };
+    // up_2 {
+    //   timeout-ms = <50>;
+    //   key-positions=<17 27>; 
+    //   bindings=<&kp UP>;
+    // };
     
-    down {
-      timeout-ms = <50>;
-      key-positions=<13 23>; 
-      bindings=<&kp DOWN>;
-    };
+    // down {
+    //   timeout-ms = <50>;
+    //   key-positions=<13 23>; 
+    //   bindings=<&kp DOWN>;
+    // };
     
-    down_2 {
-      timeout-ms = <50>;
-      key-positions=<16 26>; 
-      bindings=<&kp DOWN>;
-    };
+    // down_2 {
+    //   timeout-ms = <50>;
+    //   key-positions=<16 26>; 
+    //   bindings=<&kp DOWN>;
+    // };
     
-    right {
-      timeout-ms = <50>;
-      key-positions=<14 24>; 
-      bindings=<&kp RIGHT>;
-    };
+    // right {
+    //   timeout-ms = <50>;
+    //   key-positions=<14 24>; 
+    //   bindings=<&kp RIGHT>;
+    // };
 
-    right_2 {
-      timeout-ms = <50>;
-      key-positions=<18 28>; 
-      bindings=<&kp RIGHT>;
-    };
+    // right_2 {
+    //   timeout-ms = <50>;
+    //   key-positions=<18 28>; 
+    //   bindings=<&kp RIGHT>;
+    // };
 
-    caps { 
-      timeout-ms = <50>;
-      key-positions=<5 6>;
-      bindings=<&kp CAPS>;
-    };
+    // caps { 
+    //   timeout-ms = <50>;
+    //   key-positions=<5 6>;
+    //   bindings=<&kp CAPS>;
+    // };
 
-    space { 
-      timeout-ms = <50>;
-      key-positions=<24 32>;
-      bindings=<&kp SPACE>;
-    };
+    // space { 
+    //   timeout-ms = <50>;
+    //   key-positions=<24 32>;
+    //   bindings=<&kp SPACE>;
+    // };
 
-    space_2 { 
-      timeout-ms = <50>;
-      key-positions=<13 14>;
-      bindings=<&kp SPACE>;
-    };
+    // space_2 { 
+    //   timeout-ms = <50>;
+    //   key-positions=<13 14>;
+    //   bindings=<&kp SPACE>;
+    // };
 
-    semi_colon {
-      timeout-ms = <50>;
-      key-positions=<19 32>;
-      bindings=<&kp SEMI>;
-    };
+    // semi_colon {
+    //   timeout-ms = <50>;
+    //   key-positions=<19 32>;
+    //   bindings=<&kp SEMI>;
+    // };
 
-    colon  {
-      timeout-ms = <50>;
-      key-positions=<10 19 32>;
-      bindings=<&kp COLON>;
-    };
+    // colon  {
+    //   timeout-ms = <50>;
+    //   key-positions=<10 19 32>;
+    //   bindings=<&kp COLON>;
+    // };
   
-    // modifiers
-    l_shift {
-      timeout-ms = <75>;
-      key-positions = <20 21>;
-      bindings = <&sk LSHFT>;
-    };
+    // // modifiers
+    // l_shift {
+    //   timeout-ms = <75>;
+    //   key-positions = <20 21>;
+    //   bindings = <&sk LSHFT>;
+    // };
 
-    l_ctrl {
-      timeout-ms = <50>;
-      key-positions = <21 22>;
-      bindings = <&sk LCTRL>;
-    };
+    // l_ctrl {
+    //   timeout-ms = <50>;
+    //   key-positions = <21 22>;
+    //   bindings = <&sk LCTRL>;
+    // };
 
-    l_gui {
-      timeout-ms = <50>;
-      key-positions = <22 23>;
-      bindings = <&sk LGUI>;
-    };
+    // l_gui {
+    //   timeout-ms = <50>;
+    //   key-positions = <22 23>;
+    //   bindings = <&sk LGUI>;
+    // };
 
-    l_alt {
-      timeout-ms = <50>;
-      key-positions = <23 24>;
-      bindings = <&sk LALT>;
-    };
+    // l_alt {
+    //   timeout-ms = <50>;
+    //   key-positions = <23 24>;
+    //   bindings = <&sk LALT>;
+    // };
 
-    l_shift_pinky {
-      timeout-ms = <75>;
-      key-positions=<10 20>;
-      bindings=<&td_LSHIFT>;
-    };
+    // l_shift_pinky {
+    //   timeout-ms = <75>;
+    //   key-positions=<10 20>;
+    //   bindings=<&td_LSHIFT>;
+    // };
 
-    r_shift_pinky {
-      timeout-ms = <75>;
-      key-positions=<19 29>;
-      bindings=<&td_RSHIFT>;
-    };
+    // r_shift_pinky {
+    //   timeout-ms = <75>;
+    //   key-positions=<19 29>;
+    //   bindings=<&td_RSHIFT>;
+    // };
 
-    r_alt {
-      timeout-ms = <50>;
-      key-positions = <25 26>;
-      bindings = <&sk RALT>;
-    };
+    // r_alt {
+    //   timeout-ms = <50>;
+    //   key-positions = <25 26>;
+    //   bindings = <&sk RALT>;
+    // };
 
-    r_gui {
-      timeout-ms = <50>;
-      key-positions = <26 27>;
-      bindings = <&sk RGUI>;
-    };
+    // r_gui {
+    //   timeout-ms = <50>;
+    //   key-positions = <26 27>;
+    //   bindings = <&sk RGUI>;
+    // };
 
-    r_ctrl {
-      timeout-ms = <50>;
-      key-positions = <27 28>;
-      bindings = <&sk RCTRL>;
-    };
+    // r_ctrl {
+    //   timeout-ms = <50>;
+    //   key-positions = <27 28>;
+    //   bindings = <&sk RCTRL>;
+    // };
 
-    r_shift {
-      timeout-ms = <75>;
-      key-positions = <28 29>;
-      bindings = <&sk RSHFT>;
-    };
+    // r_shift {
+    //   timeout-ms = <75>;
+    //   key-positions = <28 29>;
+    //   bindings = <&sk RSHFT>;
+    // };
   };
 
     keymap {
@@ -288,9 +288,9 @@
       default_layer {
         bindings = <
                       &kp Q &kp W &kp E &kp R &kp T          &kp Y &kp U &kp I &kp O &kp P             
-                      &kp A &kp S &kp D &kp F &kp G          &kp H &kp J &kp K &kp L &kp BSPC      
+                      &kp A &kp S &kp D &mt LCTRL F &kp G          &kp H &mt RCTRL J &kp K &kp L &kp BSPC      
                       &kp Z &kp X &kp C &kp V &kp B          &kp N &kp M &kp COMMA &kp DOT &kp SQT  
-                      &td_LGUI &lt NUM BSPC &kp SPACE           &mt LSHIFT BSPC &kp RET &kp DEL
+                      &td_LGUI &lt NUM TAB &kp SPACE           &mt LSHIFT BSPC &kp RET &kp DEL
         >;
                                 
         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
