@@ -68,7 +68,19 @@
   };
 
   combos {
-    compatible = "zmk,combos";   
+    compatible = "zmk,combos"; 
+
+    p_combo {
+      timeout-ms = <50>;
+      key-positions=<8 9>;
+      bindings=<&kp P>;
+    }; 
+
+    q_combo {
+      timeout-ms = <50>;
+      key-positions=<2 3>;
+      bindings=<&kp Q>;
+    }; 
 
     // toggle_cmk_dh {
     //   timeout-ms = <50>;
@@ -287,10 +299,10 @@
 
       default_layer {
         bindings = <
-                      &kp Q &kp W &kp E &kp R &kp T          &kp Y &kp U &kp I &kp O &kp P             
-                      &kp A &kp S &kp D &mt LCTRL F &kp G          &kp H &mt RCTRL J &kp K &kp L &kp SQT      
-                      &mt LSHIFT Z &kp X &kp C &kp V &kp B          &kp N &kp M &kp COMMA &kp DOT &mt RSHIFT FSLH  
-                      &td_LGUI &lt NUM TAB &kp SPACE           &mt LSHIFT BSPC &kp RET &kp DEL
+                      &kp Q &kp W &kp E &kp R &kp T                   &kp Y &kp U &kp I &kp O &kp P             
+                      &kp A &kp S &kp D &kp F &kp G                   &kp H &kp J &kp K &kp L &kp SQT      
+                      &mt LSHIFT Z &kp X &kp C &kp V &kp B            &kp N &kp M &kp COMMA &kp DOT &mt RSHIFT FSLH  
+                      &td_LGUI &mt LCTRL TAB &lt NUM SPACE            &mt LSHIFT BSPC &kp RET &kp DEL
         >;
                                 
         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
