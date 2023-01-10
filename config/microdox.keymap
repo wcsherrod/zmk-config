@@ -321,7 +321,7 @@
         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
       };
                   
-    nav_layer {  // not being used
+      nav_layer {  // not being used
             bindings = <
                             &none &none &none &none &none           &none &none &none &none &none 
                &kp TAB &kp LEFT &kp UP &kp DOWN &kp RIGHT           &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp SEMI
@@ -331,7 +331,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>; 
       }; 
 
-    num_layer {
+      num_layer {
                 bindings = <
                     &kp N1 &kp N2 &kp N3 &kp N4 &kp N5              &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 
                     &kp TAB &kp LEFT &kp UP &kp DOWN &kp RIGHT      &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp SEMI 
@@ -341,9 +341,9 @@
 
         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 
-    };
+      };
 
-    sym_layer { // not being used  
+      sym_layer { // not being used  
                 bindings = <
         &kp LBRC &kp AMPS &kp ASTRK &kp UNDER &kp RBRC          &none &none &none &none &none   
       &kp COLON &kp DLLR &kp PRCNT &kp CARET &kp PLUS          &none &sk RALT &sk RGUI &sk RCTRL &sk RSHFT 
@@ -353,9 +353,9 @@
 
         sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         
-    };
+      };
 
-    fun_layer{
+      fun_layer{
               bindings = <
           &kp F12 &kp F7 &kp F8 &kp F9 &none                     &none &none &none &none &kp N0  
           &kp F11 &kp F4 &kp F5 &kp F6 &kp SLCK                  &none &sk RALT &sk RGUI &sk RCTRL &sk RSHFT 
@@ -364,10 +364,10 @@
             >;
 
     sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-    };
+      };
 
 
-    media_layer {
+      media_layer {
             bindings = <
                                      &kp C_MUTE &kp LG(W) &none &none &none         &none &kp C_BRI_DN &kp C_BRI_UP &out OUT_USB &out OUT_BLE 
             &kp LG(N0) &kp C_VOL_DN &kp C_VOL_UP &kp LG(LS(LBKT)) &kp LG(LS(RBKT))          &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT &none
@@ -376,9 +376,9 @@
             >;
 
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-    };
+      };
 
-    media_layer_flip {
+      media_layer_flip {
             bindings = <
                         &out OUT_BLE &out OUT_USB &kp C_BRI_UP &kp C_BRI_DN &none         &kp C_PREV &kp C_NEXT &kp RG(EQUAL) &kp RG(MINUS) &kp C_MUTE
                             &none &kp C_NEXT &kp C_VOL_UP &kp C_VOL_DN &kp C_PREV         &kp RG(RS(LBKT)) &kp RG(RS(RBKT)) &kp C_VOL_DN &kp C_VOL_UP &kp RG(N0)
@@ -387,7 +387,7 @@
             >;
 
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
-    };
+      };
   }; 
 };  
 
