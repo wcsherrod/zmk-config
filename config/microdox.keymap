@@ -81,25 +81,25 @@
 
     p_combo {
       timeout-ms = <50>;
-      key-positions=<8 9>;
+      key-positions=<7 8>;
       bindings=<&kp P>;
     }; 
 
     q_combo {
       timeout-ms = <50>;
-      key-positions=<2 3>;
+      key-positions=<1 2>;
       bindings=<&kp Q>;
     }; 
 
     lctrl {
       timeout-ms = <50>;
-      key-positions=<13 14>;
+      key-positions=<12 13>;
       bindings=<&kp LCTRL>;
     }; 
 
     rctrl {
       timeout-ms = <50>;
-      key-positions=<17 18>;
+      key-positions=<16 17>;
       bindings=<&kp RCTRL>;
     }; 
 
