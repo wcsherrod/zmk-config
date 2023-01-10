@@ -67,7 +67,7 @@
     };
   };
 
-/ {
+ 
   combos {
     compatible = "zmk,combos"; 
 
@@ -306,7 +306,6 @@
     //   bindings = <&sk RSHFT>;
     // };
   };
-};
     keymap {
       compatible = "zmk,keymap";
 
