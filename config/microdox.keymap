@@ -79,6 +79,12 @@
   combos {
     compatible = "zmk,combos"; 
 
+    combo_esc {
+      timeout-ms = <50>;
+      key-positions=<2 3>;
+      bindings=<&kp ESC>;    
+    };
+
     p_combo {
       timeout-ms = <50>;
       key-positions=<7 8>;
@@ -332,7 +338,7 @@
                 bindings = <
                     &kp N1 &kp N2 &kp N3 &kp N4 &kp N5              &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 
                     &kp TAB &kp LEFT &kp UP &kp DOWN &kp RIGHT      &kp LEFT &kp DOWN &kp UP &kp RIGHT &kp SEMI 
-                    &kp LPAR &kp EXCL &kp AT &kp HASH &kp SPACE     &kp BSLH &kp SQT &kp MINUS &kp EQUAL &kp RPAR 
+                    &kp LPAR &kp EXCL &kp AT &kp HASH &kp SPACE     &kp BSLH &kp UNDER &kp MINUS &kp EQUAL &kp RPAR 
                                  &td_LGUI &none &none               &kp LC(BSPC) &kp RET &td_RGUI 
                 >;
 
